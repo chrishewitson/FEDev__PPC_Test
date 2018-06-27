@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+	<head>	
+		<link rel="stylesheet" href="Templates/ppc1.css" type="text/css">
+		<link rel="stylesheet" href="Templates/ppc2.css" type="text/css">
+		<link rel="stylesheet" href="Templates/ppc_new.css" type="text/css">
+		<meta name="description" content="Save money with an NHS prescription prepayment. It helps with the cost of prescription charges. You can buy online today."/>
+		<meta name="keywords" content="prescription,NHS,certificates,prepayment,PPC,costs,help,NHSBSA,charges,prescriptions,online,health,pay,exemption">
+
+<style>
+body{font-family : Arial, Helvetica, sans-serif; color: #000000; font-size: 0.75em;}.test{height: 100%;}.format2{margin-left: 5; margin-right: 5; margin-bottom: 5; margin-top: 5; text-align: left;}.format{margin-left: 5; margin-right: 5; margin-bottom: 2; margin-top: 2; text-align: left;}.border {border: #5bbf21; border-style: solid; border-width: thin; border-bottom-color:red; width: 754; height: 75%}.border2 {border: #5bbf21; border-style: solid; border-width: thin; width: 754;}.footer{background-color:  #5bbf21;	width: 754;	color: #5bbf21;}
+</style>
+
+	</head>
+	<body>
+		<div class="home-layout">
+
+			<header>
+				<div id="headerArea">
+					<a href="#" title="Return to start" role="link">
+						<div id="bsa-logo">
+							<p>NHS Business Services Authority</p>
+							<p>Return to start</p>
+						</div>
+					</a>
+				</div>
+			</header>
+				<div id="content">
+					<div class="form-content">
+						<div id="intro-text" class="text-content">
+							<h1 style="font-size: 35px;"><span class="service-heading">Buy an NHS prescription prepayment</span>Personal details</h1>
+							<p>Please fill in the form with the personal details of the person whose prescriptions are being prepaid.</p>
+						</div>
+						<form action="/PersonalDetailsSubmit">
+							<table>
+								<tr id="ppcPersonalDetails" class="text-content">
+									<td>
+									<!-- Title -->
+									<h3 style="font-size: 20px;display:block;margin:10px 0;">Title</h3>
+									<span class="title-box">
+										<fieldset class="title-box">
+											<legend>Title</legend>
+											<span>
+												<input type="radio" property="title" value="Mr" id="titlemr"/>
+												<label for="titlemr" id="mr-label">Mr</label>
+											</span>
+											<span>
+												<input type="radio" property="title" value="Mrs" id="titlemrs"/>
+												<label for="titlemrs" id="mrs-label">Mrs</label>
+											</span>
+											<span>
+												<input type="radio" property="title" value="Miss" id="titlemiss"/>
+												<label for="titlemiss" id="miss-label">Miss</label>
+											</span>
+											<span>
+												<input type="radio" property="title" value="Ms" id="titlems"/>
+												<label for="titlems" id="ms-label">Ms</label>
+											</span>
+										</fieldset>
+									</span>
+									</td>
+								</tr>
+
+								<!-- row 2 : First name -->
+								<tr class="form-group">
+									<td>
+										<label id="firstname-label"><h3 style="font-size: 20px;display:block;margin:10px 0;">First name</h3></label>
+										<input type="text" name="firstname" id="first-name" class="optionalbox form-control" maxlength="30"/>
+									</td>
+								</tr>
+
+								<!-- row 3 : Last name -->
+								<tr class="form-group">
+									<td>
+										<label id="lastname-label"><h3 style="font-size: 20px;display:block;margin:10px 0;">Last name</h3></label>
+										<input type="text" name="lastname" id="last-name" class="optionalbox form-control" maxlength="30"/>
+									</td>
+								</tr>
+								
+						        <!-- row 4 : Building and street -->
+								<tr class="form-group">
+									<td>
+										<label id="bands-label"><h3 style="font-size: 20px;display:block;margin:10px 0;">Building and street</h3></label>
+										<input type="text" name="address1" id="building-street" class="optionalbox form-control" maxlength="30"/>
+									</td>
+								</tr>
+				
+								<!-- row 5 : Address 2 -->
+								<tr class="form-group">
+									<td>
+										<label id="bands-label2"><h3>Building and street line 2</h3></label>
+										<input type="text" name="address2" id="building-street2" class="optionalbox form-control" maxlength="30"/>
+									</td>
+								</tr>
+				
+								<!-- row 6 : Town or city -->
+								<tr class="form-group">
+									<td>
+					  					<label id="torc-label"><h3 style="font-size: 20px;display:block;margin:10px 0;">Town or city</h3></label>
+										<input type="text" name="address3" id="town-city" class="optionalbox form-control" maxlength="30"/>
+									</td>
+								</tr>
+							
+								<!-- row 8 : Post code -->
+								<tr class="form-group">
+									<td>
+										<label id="postcode-label"><h3 style="font-size: 20px;display:block;margin:10px 0;">Postcode</h3></label>
+										<p class="hint-text">You must be a resident of England.</p>
+										<input type="text" name="postcode" class="optionalbox form-control inline-box" id="postal-code" maxlength="10"/>
+									</td>
+							    </tr>
+							    
+								<!-- row 9 : Date of birth -->
+								<tr class="form-group">
+									<td>
+					  					<label id="dob-label"><h3 style="font-size: 20px;display:block;margin:10px 0;">Date of birth</h3></label>
+					  					<p class="hint-text">dd/mm/yyyy</p>
+										<input type="text" id="dob" name="dob" class="optionalbox form-control" maxlength="10"/>
+									</td>
+								</tr>
+
+						        <!-- row 10 : NHS Number -->
+								<tr class="form-group">
+									<td>
+					 					<label id="nhs-label"><h3 style="font-size: 20px;display:block;margin:10px 0;">NHS Number (optional)</h3></label>
+										<input type="text" name="nhsnumber" class="optionalbox form-control" id="nhsno" maxlength="15"/>
+									</td>
+								</tr>
+
+							    <!-- row 11 : Telephone -->
+								<tr class="form-group">
+									<td>
+					           			<label id="phone-label"><h3 style="font-size: 20px;display:block;margin:10px 0;">Telephone number (optional)</h3></label>
+										<input type="text" name="telno" class="optionalbox form-control" id="phone" maxlength="12"/>
+									</td>
+								</tr>
+
+						        <!-- row 12 : Email -->
+					 			<tr class="form-group">
+					 				<td>
+										<label id="email-label"><h3 style="font-size: 20px;display:block;margin:10px 0;">Email address</h3></label><p class="hint-text">If you are paying by credit or debit card we will send an email confirmation to this address.</p>
+										<input type="text" name="email" class="optionalbox form-control" id="emailaddress" maxlength="50"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<button class="new-button" value="Next" id="nextButton">Next</button><br/>
+										<button class="text-button" value="Back" id="backButton">Back</button>
+									</td>
+								</tr>
+							</table>
+						</form>
+					</div>
+				</div>
+			</body>
+
+			<footer>
+				<div class="footer-content noprint">
+					<div class="footer-images">
+						<div class="social-icons">
+							<a href="http://contactcentreservices.nhsbsa.nhs.uk/selfnhsukokb/AskUs_HWHC/template-group.do" target="blank"><img src="images/askus.gif" role="link" alt="Ask Us - NHS BSA frequently asked questions" style="vertical-align:middle;border:0"></a>
+							<a href="http://www.twitter.com/nhshealthcosts" target="blank"><img src="images/twitter.gif" alt="Follow Help with Health Costs on Twitter" role="link" style="vertical-align:middle;border:0"></a>
+							<a href="http://www.facebook.com/NHSBSAHelpWithHealthCosts" target="blank"><img src="images/facebook.gif" alt="Help with Health Costs on Facebook" role="link" style="vertical-align:middle;border:0"></a>
+						</div>
+					</div>
+					<div class="footer-text">
+						<p>
+							<a href="https://www.nhsbsa.nhs.uk/our-policies/privacy" target="_blank">Privacy policy and cookies</a>
+							<a href="https://www.nhsbsa.nhs.uk/our-policies/data-protection" target="_blank">Data protection</a>
+							<a href="termsAndConditions.do" target="_blank">Terms and conditions</a>
+						</p>
+						<p>Find more information about <a href="https://www.nhsbsa.nhs.uk/nhs-help-health-costs" target="_blank">Help with Health Costs.</a></p>
+					</div>
+					<div class="footer-copy">
+						<p>&copy; NHS Business Services Authority 2017</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
