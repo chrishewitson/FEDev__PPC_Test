@@ -1,0 +1,266 @@
+body
+{
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 12px;
+    color: black;
+}
+p
+{
+	font-size: 12px;
+	color: black;
+}
+td
+{
+	font-size: 12px;
+    font-family : Arial, Helvetica, sans-serif;
+}
+ul
+{
+	font-size: 12px;
+}
+h2
+{
+	font-size: 16px;
+	color: black;
+	margin-top: 15px;
+	padding: 0px;
+}
+h3
+{
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+#headerTitle
+{
+    position : absolute;
+    margin-top : 10px;
+    margin-right : 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+#headerTitle h1
+{
+    font-size : 20px;
+    color     : #000;
+}
+#headerArea
+{
+    margin  : 0px;
+    padding : 0px;
+    width   : 100%;
+}
+#NHSBSAlogo
+{
+    right : 0px;
+    top   : 0px;
+    float : right;
+    padding-right: 10px;
+    padding-top:10px;
+}
+.navarea
+{
+	margin-top: 15px;
+}
+.fieldCell
+{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.clearFloat
+{
+    clear : both;
+}
+.sectionTitle
+{
+    position: relative;
+    top: -25px;
+    margin-left: 10px;
+    color: #f80;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+.widthSet
+{
+    width: 600px;
+}
+.errorDetail
+{
+    color: red;
+}
+.notePrevCert
+{
+    position: relative;
+    top: 0px;
+    left: 10px;
+    font-size: 12px;
+    width: 730px;
+    margin-bottom: 5px;
+}
+.pageContainer
+{
+	width: 752px;
+	min-height: 100%;
+	margin: 0px auto;
+	border-style: solid;
+	border-width:2px;
+	border-color: #5bbf21;
+	padding: 0px;
+	background-color: #FFFFFF;
+	text-align:left;
+}
+.topRule
+{
+	background-color: #5bbf21;
+	width: 100%;
+	height: 25px;
+	text-align: right;
+	padding-top: 5px;
+}
+.topRule font
+{
+	vertical-align: middle;
+}
+.bottomRule
+{
+    position:relative;
+    bottom:0px;
+}
+.contentArea
+{
+	margin: 10px;
+	padding: 10px;
+	text-align:left;
+}
+.feedbackForm
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5bbf21;
+	margin-top: 30px;
+	width: 560px;
+	text-align: left;
+	padding: 10px;
+}
+.feedbackForm form
+{
+	margin: 40px;
+}
+.formHeaders
+{
+	width : 146px;
+	height: 20px;
+	display: inline;
+}
+.formHeaders img
+{
+	background-color: #ffffff;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.formHeaders h3
+{
+	display: inline;
+	vertical-align: middle;
+}
+.mandatoryField
+{
+	border-width: 1px;
+	border-color: #FF6600;
+	border-style: solid;
+}
+.ordinaryField
+{
+	border-width: 1px;
+	border-color: #5bbf21;
+    border-style: solid;
+}
+.buttonField
+{
+	margin-top: 5px;
+	font-size: 14px;
+	font-weight: bold;
+    border-width: 2px;
+	border-color: #FF6600 #FF6600 #FF6600 #FF6600;
+    border-style: solid;
+	background-color: #5bbf21;
+	color: #ffffff;
+	padding: 5px;
+}
+.errorArea
+{
+	background-color: rgb(255, 205, 205);
+}
+.hideImage
+{
+	visibility: hidden;
+}
+.hideArea
+{
+	display: none;
+}
+.showArea
+{
+	display: inline;
+}
+#showAllToggle
+{
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+	margin-top: 10px;
+}
+.formButtonShell
+{
+	padding: 5px;
+	background-color: rgb(120,190,180);
+}
+.formButton
+{
+	border: 1px #FF6600 solid;
+	text-align: center;
+	color: #5bbf21 !important;
+    background-color: #ffffff !important;
+    width: 150px;
+    min-width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.formButton2
+{
+    width: 80px;
+}
+.formButtonOver
+{
+	border: 1px #FF6600 solid;
+	text-align: center;
+	color: white !important;
+    cursor: pointer;
+    background-color: #5bbf21 !important;
+    width: 150px;
+    min-width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.generictext { font-family: Arial, Helvetica, sans-serif; font-size: 12px ; color: #000000}
+.purplebox { background-color: #F2F2F9; border: 1px #5bbf21 solid}
+.readonlyfield {  border: 1px #CCCCCC solid}
+.ocs { border: 1px #CCCCCC solid ; background-color: #FFE6D5; font-weight: bold; color: #000000}
+.multidrop { background-color: #F2F2F9; border: 1px #5bbf21 solid ; list-style-type: disc}
+.aleft {  text-align: left}
+.aright { text-align: left }
+.helptitle {  font-family: Arial, Helvetica, sans-serif; font-size: large; font-style: normal; font-weight: bold}
+.thintable {  border: thin #000000 none; font-family: Arial, Helvetica, sans-serif; font-size: 12px}
+.upper {  text-transform: uppercase; background-color: #F2F2F9; border: #5bbf21; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.uppernobox { text-transform: uppercase}
+.purple { background-color: #F2F2F9; list-style-type: disc }
+.multidropmandatory { background-color: #FFE8D9; border: 1px #FF6600 solid; list-style-type: disc }
