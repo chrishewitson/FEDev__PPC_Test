@@ -7,7 +7,7 @@ Take this version of a page from our Prescription Prepayment Certificate (PPC) s
 
 Submission
 
-You have 45 minutes on this assignment.
+You have 30 minutes on this assignment.
 
 The aim of this exercise is to understand your approach to front end development and what you see as important for usability and accessibility.
 At the end of the time limit, zip up your files into a .zip file and email as an attachment to chris.hewitson1@nhs.net
