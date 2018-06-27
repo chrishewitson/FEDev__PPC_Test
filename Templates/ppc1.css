@@ -1,0 +1,8 @@
+.linkcolors {  font-family: Arial, Helvetica, sans-serif; color: #0066CC; text-decoration: underline; cursor: pointer;}
+.mainfonts {  font-family: Arial, Helvetica, sans-serif; color: #000000; text-decoration: none}
+.heading {  font-weight: bold; color: #0066CC}
+.searchbox {  border: 1px #FF6600 solid; font-family: Arial, Helvetica, sans-serif; font-size: x-small; font-style: normal; background-color: #FFFFFF}
+.optionalbox { border: 1px #5bbf21 solid; font-family: Arial, Helvetica, sans-serif; font-size: x-small; font-style: normal; background-color: #FFFFFF }
+.jumpdownbox {  font-family: Arial, Helvetica, sans-serif; font-size: x-small; color: #000000; border: 1px #FF6600 solid; clip:  rect(   )}
+.searchbox2 { width: 300px; border: 1px #FF6600 solid; font-family: Arial, Helvetica, sans-serif; font-size: x-small; font-style: normal; background-color: #FFFFFF }
+.optionalbox2 { width: 300px; border: 1px #5bbf21 solid; font-family: Arial, Helvetica, sans-serif; font-size: x-small; font-style: normal; background-color: #FFFFFF }
